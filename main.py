@@ -11,6 +11,7 @@ import streamlit as st
 
 # Make sure NLTK downloads only once
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Load stopwords

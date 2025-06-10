@@ -75,8 +75,8 @@ def shortlist_resumes_by_jd(df, job_description, k=5):
     return top_resumes
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="Resume Shortlisting System", layout="wide")
-    st.title("📄 Resume Shortlisting System")
+    st.set_page_config(page_title="R-FitFinder", layout="wide")
+    st.title("R-FitFinder")
 
     uploaded_file = st.file_uploader("Upload ZIP file of resumes (.json inside)", type=["zip"])
 
